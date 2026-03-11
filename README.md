@@ -18,17 +18,9 @@ This project shows how cloud administrators can **reduce attack surfaces by rest
 
 This architecture demonstrates how **Microsoft Defender for Cloud dynamically controls RDP access** to Azure Virtual Machines using temporary Network Security Group rules.
 
-Flow Overview:
+* Flow Overview
 
-User  
-↓  
-Request JIT Access  
-↓  
-Microsoft Defender for Cloud  
-↓  
-Temporary NSG Rule Created  
-↓  
-Secure RDP Access to Azure Virtual Machine  
+![Flow Overview](images/Flow-Overview.png)
 
 ---
 
