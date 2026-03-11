@@ -185,22 +185,10 @@ This lab demonstrates:
 
 # Project Structure
 
-```
-Azure-Just-in-Time-VM-Access-Security-Lab
-│
-├── README.md
-│
-├── images
-│   ├── jit-architecture-diagram.png
-│   ├── defender-plan.png
-│   ├── JIT-VM-Access.png
-│   ├── config-jit-vm.png
-│   ├── create-inbound-rule.png
-│   ├── request-access.png
-│   ├── active.png
-│   ├── access-denied.png
-│   └── victory-screen.png
-```
+![Architecture Diagram](images/Project-Structure.png)
+
+
+
 
 ---
 
