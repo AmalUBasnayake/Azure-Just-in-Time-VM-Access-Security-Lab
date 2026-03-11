@@ -1,5 +1,7 @@
 # Azure Just-in-Time VM Access Security Lab
 
+![GitHub Repo stars](https://img.shields.io/github/stars/AmalUBasnayake/Azure-Just-in-Time-VM-Access-Security-Lab?style=social)
+
 ![Azure](https://img.shields.io/badge/Platform-Microsoft%20Azure-blue)
 ![Security](https://img.shields.io/badge/Focus-Cloud%20Security-red)
 ![Defender](https://img.shields.io/badge/Service-Microsoft%20Defender%20for%20Cloud-purple)
@@ -16,11 +18,11 @@ This project shows how cloud administrators can **reduce attack surfaces by rest
 
 # Architecture Diagram
 
-![Architecture Diagram](images/jit-architecture-diagram..png)
+![Architecture Diagram](images/jit-architecture-diagram.png)
 
 This architecture demonstrates how **Microsoft Defender for Cloud dynamically controls RDP access** to Azure Virtual Machines using temporary Network Security Group rules.
 
-# Flow Overview
+# JIT Access Workflow
 
 ![Flow Overview](images/Flow-Overview.png)
 
