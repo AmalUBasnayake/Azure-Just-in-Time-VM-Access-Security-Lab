@@ -14,7 +14,7 @@ This project shows how cloud administrators can **reduce attack surfaces by rest
 
 # Architecture Diagram
 
-![Architecture Diagram](images/jit-architecture-diagram.png)
+![Architecture Diagram](images/jit-architecture-diagram..png)
 
 This architecture demonstrates how **Microsoft Defender for Cloud dynamically controls RDP access** to Azure Virtual Machines using temporary Network Security Group rules.
 
@@ -61,7 +61,7 @@ Resources used in this lab:
 
 ---
 
-# Step 1 — Enable Microsoft Defender for Cloud
+# Step 1 : Enable Microsoft Defender for Cloud
 
 First enable the **Microsoft Defender Plan for Servers**.
 
@@ -75,7 +75,7 @@ This service provides advanced security capabilities including:
 
 ---
 
-# Step 2 — Configure Just-in-Time VM Access
+# Step 2 : Configure Just-in-Time VM Access
 
 Navigate to:
 
@@ -91,7 +91,7 @@ Select the target virtual machine and enable JIT protection.
 
 ---
 
-# Step 3 — Configure JIT Access Rules
+# Step 3 : Configure JIT Access Rules
 
 Define the ports that should be protected by JIT.
 
@@ -106,7 +106,7 @@ Maximum Request Time: 3 Hours
 
 ---
 
-# Step 4 — Configure Network Security Group
+# Step 4 : Configure Network Security Group
 
 Create an inbound rule for the virtual machine.
 
@@ -122,7 +122,7 @@ Rule Name: Allow-RDP-For-JIT
 
 ---
 
-# Step 5 — Request Temporary Access
+# Step 5 : Request Temporary Access
 
 From the **JIT VM Access panel**, request access to the virtual machine.
 
@@ -136,7 +136,7 @@ Access Time: 1 Hour
 
 ---
 
-# Step 6 — Active JIT Session
+# Step 6 : Active JIT Session
 
 Once approved, **Microsoft Defender automatically creates a temporary NSG rule** allowing access for the requested time period.
 
@@ -156,7 +156,7 @@ After requesting JIT access:
 
 RDP connection is **successfully established**.
 
-![RDP Success](images/victory-screen.png)
+![RDP Success](images/Victory-Screen.png)
 
 This confirms that **Just-in-Time VM Access is functioning correctly**.
 
