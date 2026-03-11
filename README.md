@@ -8,6 +8,8 @@
 
 A hands-on Azure security lab demonstrating how to secure virtual machines using **Just-in-Time (JIT) VM Access** with **Microsoft Defender for Cloud**.  
 
+![JIT VM Security Lab](images/jit-vm-security.png)
+
 This project shows how cloud administrators can **reduce attack surfaces by restricting management ports like RDP (3389)** and only allowing temporary access when required.
 
 ---
